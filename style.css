@@ -1,162 +1,156 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-body{
-    background-image: url(./img/SL.123119.26540.16.jpg);
-    background-attachment: fixed;
-    background-repeat: round;
-    background-size: cover;
+body {
+  background-image: url(./img/SL.123119.26540.16.jpg);
+  background-attachment: fixed;
+  background-repeat: round;
+  background-size: cover;
 }
-img{
-    display: block;
-    height: auto;
-    max-width: 100%;
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
 }
-.bd-grid{
-    max-width: 1024px;
-    display: grid;
-    grid-template-columns: 100%;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+.bd-grid {
+  max-width: 1024px;
+  display: grid;
+  grid-template-columns: 100%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+.cont1 {
+  justify-self: center;
+  text-align: center;
+  position: absolute;
+  padding: 20px;
+  width: 500px;
 
-.cont1{
-    justify-self: center;
-    text-align: center;
-    position: absolute;
-    padding: 20px;
-    width: 500px;
-    
-    background-color: rgb(240, 104, 86);
-    box-shadow: 0px 10px 30px rgba(128, 128, 128, 0.651);
-   
+  background-color: rgb(240, 104, 86);
+  box-shadow: 0px 10px 30px rgba(128, 128, 128, 0.651);
 }
-.cont1 img{
-    width: 320px;
-    margin-bottom: 40px;
-    margin-left: 65px;
-   
+.cont1 img {
+  width: 235px;
+  margin-bottom: 22px;
+  margin-left: 112px;
 }
-.cont1 h1{
-    font-size: 50px;
-    margin-bottom: 40px;
-    color: rgb(255, 255, 255);
+.cont1 h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
 }
-.cont1 p{
-    font-size: 40px;
-    color: rgb(255, 255, 255);
+.cont1 p {
+  font-size: 32px;
+  color: rgb(255, 255, 255);
 }
-#player_buttons{
-    display: flex;
-    position: relative;
-    top: 545px;    
-   justify-self: center;
-    background-color: rgb(234, 241, 248);
-    box-shadow: 0px 10px 30px rgba(128, 128, 128, 0.651);
-    width: 500px; 
-    height:625px; 
+#player_buttons {
+  display: flex;
+  position: relative;
+  top: 401px;
+  justify-self: center;
+  background-color: rgb(234, 241, 248);
+  box-shadow: 0px 10px 30px rgba(128, 128, 128, 0.651);
+  width: 500px;
+  height: 535px;
 }
-.btn{
-    margin: 0px 25px;
-    cursor: pointer;
-    width: 60px;
-    position: relative;
-    left: 82px;
-    top: 50px;
+.btn {
+  margin: 0px 25px;
+  cursor: pointer;
+  width: 60px;
+  position: relative;
+  left: 85px;
+  top: 35px;
 }
-.sound_speed{
-    justify-self: center;
-    position: relative;
-    top: 55px;
+.sound_speed {
+  justify-self: center;
+  position: relative;
+  bottom: 5px;
 }
-.sound_speed h2{
-    margin-bottom: 20px;
-    font-size: 35px;
-    text-align: center;
-    color: rgb(55, 56, 56);
+.sound_speed h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(55, 56, 56);
 }
-#volume{
-    margin-bottom: 20px;
-    width: 470px;
-    cursor: pointer;
+#volume {
+  margin-bottom: 20px;
+  width: 430px;
+  cursor: pointer;
 }
-#speed{
-    margin-bottom: 20px;
-    width: 470px;
-    cursor: pointer;
+#speed {
+  width: 430px;
+  cursor: pointer;
 }
 /*hena katl3ab fi range bihad tari9a input[type="range" i]*/
-input[type="range" i]{
-    -webkit-appearance: none;
-    background-color: #c4928b;
-    height: 8px;
-    border-radius: 8px;
+input[type="range" i] {
+  -webkit-appearance: none;
+  background-color: #c4928b;
+  height: 8px;
+  border-radius: 8px;
 }
-input[type="range" i]::-webkit-slider-thumb{
-    -webkit-appearance: none;
-    background-color: rgb(235, 82, 62);
-    height: 25px;
-    width: 25px;
-    border-radius: 50%;
-    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.411);
-    transition: 0.3s;
+input[type="range" i]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: rgb(235, 82, 62);
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.411);
+  transition: 0.3s;
+}
+input[type="range" i]:hover {
+  background-color: rgb(235, 82, 62);
+}
+input[type="range" i]::-webkit-slider-thumb:hover {
+  background-color: rgb(245, 34, 6);
 
-}
-input[type="range" i]:hover{
-    background-color: rgb(235, 82, 62);
-}
-input[type="range" i]::-webkit-slider-thumb:hover{
-    background-color: rgb(245, 34, 6);
-   
-    transform: scale(1.3);
-}
-
-#colors{
-    text-align: center;
-    position: relative;
-    top: 100px;
-}
-#colors button{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin: 0px 12px;
-    box-shadow: 0px 8px 4px gray;
-    cursor: pointer;
-}
-#colors button:active{
-    box-shadow: 0 0 0;
-    transform: translateY(5px);
-}
-#color-1{
-    background-color: rgb(36, 24, 24);
-}
-#color-2{
-    background-color: rgb(226, 67, 27);
-}
-#color-3{
-    background-color: rgb(22, 115, 190);
-}
-#color-4{
-    background-color: rgb(8, 129, 24);
-}
-.lien{
-    justify-self: center;
-}
-.lien a{
-    text-decoration: none;
-    position: relative;
-    top: 180px;
-    padding: 20px 41px;
-    border: 3px solid rgba(255, 0, 0, 0.116);
-    border-radius: 50px;
-    box-shadow: 0px 5px 20px rgba(66, 62, 62, 0.473);
-    font-size: 35px;
-    color: rgb(34, 33, 33);
-    font-weight: 700; 
+  transform: scale(1.3);
 }
 
+#colors {
+  text-align: center;
+  position: relative;
+  top: 45px;
+}
+#colors button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0px 12px;
+  box-shadow: 0px 8px 4px gray;
+  cursor: pointer;
+}
+#colors button:active {
+  box-shadow: 0 0 0;
+  transform: translateY(5px);
+}
+#color-1 {
+  background-color: rgb(36, 24, 24);
+}
+#color-2 {
+  background-color: rgb(226, 67, 27);
+}
+#color-3 {
+  background-color: rgb(22, 115, 190);
+}
+#color-4 {
+  background-color: rgb(8, 129, 24);
+}
+.lien {
+  justify-self: center;
+}
+.lien a {
+  text-decoration: none;
+  position: relative;
+  top: 110px;
+  padding: 20px 41px;
+  border: 3px solid rgba(255, 0, 0, 0.116);
+  border-radius: 50px;
+  box-shadow: 0px 5px 10px rgba(66, 62, 62, 0.473);
+  font-size: 30px;
+  color: rgb(34, 33, 33);
+  font-weight: 700;
+}
