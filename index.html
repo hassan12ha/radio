@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+    <section class="bd-grid section">
+            <div class="cont1" id="cont2">
+                <img src="img/logo.jpg">
+                <h1>RADIO HASSAN</h1>
+                <p id="title_radio">SVERIG FM</p>
+            </div>
+            <div id="player_buttons">
+                <div class="work__img">
+                    <img src="img/back.png" alt="" id="back" class="btn">
+                </div>
+                <div class="work__img">
+                    <img src="img/play.png" alt="" id="play_pause" class="btn">
+                </div>
+                <div class="work__img">
+                    <img src="img/next.png" alt="" id="next" class="btn">
+                </div>
+                <audio src="" id="audio_file"></audio>
+            </div> 
+            <div class="sound_speed">
+                <h2>the sound</h2>
+                <input id="volume" type="range" value="50" min="0" max="100" id="range">  
+                <h2>the speed</h2>
+                <input id="speed" type="range" value="100" min="0" max="200" id="range">         
+            </div>
+            <div id="colors">
+                <button id="color-1"></button>
+                <button id="color-2"></button>
+                <button id="color-3"></button>
+                <button id="color-4"></button>
+            </div>
+            <div class="lien">
+               <a href="http://www.hassan-achiri.tk" target ="_blank">www.hassan-achiri.tk</a> 
+            </div>
+    </section>
+</main>
+
+  <script src="audio.js"></script>
+  <script src="volume.js"></script>
+  <script src="color.js"></script>
+</body>
+</html>
