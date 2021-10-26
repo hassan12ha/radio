@@ -154,3 +154,90 @@ input[type="range" i]::-webkit-slider-thumb:hover {
   color: rgb(34, 33, 33);
   font-weight: 700;
 }
+@media screen and (max-width:503px) {
+  .cont1{
+    width: 400px;
+  }
+  .cont1 img{
+    position: relative;
+    right: 47px;
+  }
+  #player_buttons{
+    width: 400px;
+  }
+  #player_buttons img{
+    width: 50px;
+    position: relative;
+    left: 52px;
+  }
+  #volume {
+    margin-bottom: 20px;
+    width: 330px;
+    cursor: pointer;
+  }
+  #speed {
+    width: 330px;
+    cursor: pointer;
+  }
+  .lien a{
+    font-size: 23px;
+  }
+  #colors button {
+    width: 32px;
+    height: 32px;
+  }
+  
+}
+@media screen and (max-width:401px) {
+  .cont1{
+    width: 350px;
+  }
+  .cont1 h1{
+    font-size: 30px;
+  }
+  .cont1 img{
+    position: relative;
+    right: 72px;
+  }
+  #player_buttons{
+    width: 350px;
+    position: relative;
+    top: 388px;
+    height: 540px;
+  }
+  #player_buttons img{
+    width: 50px;
+    position: relative;
+    left: 30px;
+  }
+  #volume {
+    margin-bottom: 20px;
+    width: 300px;
+    cursor: pointer;
+  }
+  #speed {
+    width: 300px;
+    cursor: pointer;
+  }
+  .lien a{
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+  #colors button {
+    width: 32px;
+    height: 32px;
+  }
+  .sound_speed{
+    position: relative;
+    bottom: 40px;
+  }
+  #colors{
+    position: relative;
+    top: 10px;
+  }
+  .lien{
+    position: relative;
+    bottom: 40px;
+  }
+  
+}
